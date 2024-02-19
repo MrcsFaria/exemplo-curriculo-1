@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfólio da aula de HTML5">
+    <meta name="author" content="Marcos Faria">
+    <meta name="keywords" content="currículo, emprego, serviço">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Portfólio Marcos Faria</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+    <!-- Exemplo Criação CSS -->
+    <!-- Código para Centralizar: margin: 0 auto -->
+    <style>
+        body{
+            background-color:gray;
+            font: 'Ubuntu';
+            margin: 10px;
+        }
+
+        header{
+            margin-bottom: 20px;
+        }
+
+        header h1{
+            color:white;
+            font-family: 'Ubuntu';
+            font-size: 55px;
+            text-align: center;
+            text-shadow: 3px 3px 4px black;
+        }
+
+        header figure{
+            border: 1px solid white;
+            width: 250px;
+            height: 250px;
+            border-radius: 120px;
+            margin: 0 auto;
+            box-shadow: 1px 1px 7px black;
+        }
+
+        header figure img{
+            width: 250px;
+            border-radius: 120px;
+        }
+
+        header nav{
+            text-align: center;
+            font-family: 'Ubuntu';
+        }
+
+        header nav a{
+            color:aliceblue;
+            text-decoration: none;
+            padding: 5px
+        }
+
+        header nav a:hover{
+
+            background-color: black;
+            text-decoration: underline;
+        }
+
+        section, footer {
+            width: 70%;
+            margin: 0 auto;
+            margin-bottom: 40px;
+            padding: 40px 20px;
+            background-color: beige;
+            border-radius: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="img/117872696.jfif" alt="">
+        </figure>
+        <h1>Marcos Vinicius Faria</h1>
+        <nav>
+            <a href="#dados-pessoais">Dados Pessoais</a>
+            <a href="#historico-academico">Histórico Acadêmico</a>
+            <a href="#historico-profissional">Histórico Profissional</a>
+            <a href="#objetivo">Objetivo Profissional</a>
+        </nav>
+    </header>
+
+    <section id="dados-pessoais">
+        <h1>Dados Pessoais</h1>
+        <hr>
+        <ul type ="disc">
+            <li>E-mail: 
+                <a href="mailto:marcos.vfaria1@senacsp.edu.br">
+                    marcos.vfaria1@senacsp.edu.br
+                </a>
+            </li>
+            <li>LinkedIn:  
+                <a
+                    href="https://br.linkedin.com/in/marcos-vinicius-faria-124266186"
+                    target="_blank"
+                    tittle="Link Perfil do LinkedIn"
+                >
+                    Marcos Vinicius Faria
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="historico-academico">
+        <!--Adicionar Imagem-->
+        <!--<img src="Menor.png.png" alt="Foto1">-->
+        <!--Adicionar Página, e referênciar-->
+        <!--<a href="page1.html">Página 1</a>-->
+        <h2>Histórico Acadêmico</h2>
+        <h3 style="margin: 10px;">Formação:</h3> 
+        <ul>
+            <li><strong>Tecnologia da Informação,</strong> SENAC</li>
+            <li><strong>Automação Industrial,</strong> IFSP - Instituto Federal de Educação, Ciência e Tecnologia de São Paulo</li>
+        </ul>
+        <h3 style="margin: 10px;">Cursos: </h3>
+        <ul>
+            <li><strong>Inglês,</strong> CBA Idiomas</li>
+            <li><strong>Desenvolvimento BackEnd JAVA,</strong> mesttra</li>
+            <li><strong>Banco de Dados - SQL,</strong> mesttra</li>
+            <li><strong>Power BI do Básico ao Avançado,</strong> Udemy</li>
+        </ul>
+    </section>
+
+    <section id="historico-profissional">
+        <h2>Histórico Profissional</h2>
+        <ul>
+            <li><strong>Técnico de TI,</strong> Embraer</li>
+            <li><strong>Aprendiz de Produção,</strong> Johnson & Johnson</li>
+        </ul>
+    </section>
+
+    <section id="objetivo">
+        <h2>Objetivo</h2>
+        <p style="margin: 20px;">Desenvolvedor de Software</p>
+    </section>
+
+    <section id="git">
+        <h2>Status Git-Hub</h2>
+        <div id="banner">
+            <div class="inline-block">
+                <img src ="https://github-readme-stats.vercel.app/api?username=MrcsFaria&theme=dark&hide_border=true&include_all_commits=false&count_private=true">
+            </div>
+        
+            <div class="inline-block">
+                <img src ="https://github-readme-stats.vercel.app/api/top-langs/?username=MrcsFaria&theme=dark&hide_border=true&include_all_commits=false&count_private=true&layout=compact">
+            </div>
+    
+        </div>
+    </section>
+    
+    <asside>
+
+    </asside>
+
+    <footer>
+        &COPY; Todos os direitos reservados
+    </footer>
+    
+</body>
+</html>
